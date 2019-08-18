@@ -56,7 +56,7 @@ public class Game {
         for (int j = 0; j < (i + 1); j++) {
             Player buf = players[j+1];
             players[j + 1] = players[i];
-            players[i] = buf;
+            players[j] = buf;
 
         }
         players[0] = players[i];
